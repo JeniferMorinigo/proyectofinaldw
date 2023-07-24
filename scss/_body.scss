@@ -1,0 +1,16 @@
+$animation-duration: 10s;
+$colors: #e3f0f6, #8ebefe, #3f3fff;
+
+@mixin changingBackgroundColor($colors, $duration) {
+  @keyframes backgroundColors {
+    0% { background-color: nth($colors, 1); }
+    50% { background-color: nth($colors, 2); }
+    100% { background-color: nth($colors, 3); }
+  }
+
+  body {
+    animation: backgroundColors $duration infinite;
+  }
+}
+
+@include changingBackgroundColor($colors, $animation-duration);

@@ -1,0 +1,40 @@
+.navbar {
+    background-color: #f46100;
+  }
+  
+  .navbar img {
+    height: 60px;
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        color: #000000;
+        font-weight: 500;
+        padding: 0.5rem 1rem;
+  
+        &:hover,
+        &:focus {
+          color: #ccc;
+        }
+      }
+  
+      .dropdown-menu {
+        background-color: #d03a04;
+  
+        .dropdown-item {
+          color: #fff;
+          padding: 0.5rem 1rem;
+  
+          &:hover,
+          &:focus {
+            background-color: #ea4e00;
+          }
+        }
+      }
+    }
+  }

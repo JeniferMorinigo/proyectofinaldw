@@ -1,4 +1,7 @@
 main {
+  margin: 20px auto; 
+  max-width: 600px;
+  padding: 20px;
   .form-container {
     max-width: 400px;
     margin: 0 auto;
@@ -7,17 +10,14 @@ main {
     border-radius: 8px;
     margin-bottom: 5%;
   }
-  
   .form-container h2 {
     margin-bottom: 20px;
   }
-  
   form {
     label {
       display: block;
       margin-bottom: 5px;
     }
-  
     .form-control {
       width: 100%;
       padding: 10px;
@@ -26,7 +26,6 @@ main {
       border-radius: 4px;
       resize: vertical;
     }
-  
     .btn {
       padding: 10px 20px;
       background-color: #007bff;
